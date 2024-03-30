@@ -1,0 +1,28 @@
+
+.primary{
+    background-color: #FF735C;
+}
+
+.focus-ring{
+    color: black;
+}
+.back{
+    background-color: #fcbfb5;
+}
+body{
+    background-color: #fcbfb5 !important;
+    overflow: hidden;
+}
+
+.height{
+    height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .height{
+        height: auto;
+    }
+    body{
+        overflow: scroll;
+    }
+}
